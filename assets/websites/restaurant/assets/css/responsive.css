@@ -1,0 +1,67 @@
+@media (max-width: 1200px) {
+	header h1{
+		font-size: 80px;
+	}
+	.reservations form{
+		padding: 30px 30px;
+	}
+}
+@media (max-width: 992px) {
+	nav ul{
+		background-color: #DAB33E;
+	}
+	.navbar-scroll{
+		background-color: #DAB33E;
+	}
+	header h1{
+		font-size: 60px;
+	}
+	.reviews p{
+		font-size: 22px;
+	}
+	.reservation-item{
+		margin-top: 50px;
+	}
+	.reservations form{
+		padding: 30px 60px;
+	}
+}
+@media (max-width: 768px) {
+	header h1{
+		font-size: 45px;
+	}
+	.igredients .igredient-img1{
+		margin: 0 8px;
+		height: 90px;
+		width: 90px;
+	}
+	.reviews p{
+		font-size: 19px;
+	}
+	.reviews img{
+		height: 20px;
+	}
+	.reservations form{
+		padding: 30px 30px;
+	}
+}
+@media (max-width: 576px) {
+	header a{
+		color: white;
+		padding: 15px 30px;
+		border: solid 1px white;
+		background-color: transparent;
+		transition: .2s;
+	}
+	.reviews p{
+		font-size: 16px;
+	}
+	.reviews img{
+		height: 15px;
+	}
+	.igredients .igredient-img1{
+		margin: 0 5px;
+		height: 80px;
+		width: 80px;
+	}
+}

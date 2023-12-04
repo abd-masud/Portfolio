@@ -1,0 +1,96 @@
+@media (max-width: 1200px) {
+	.home h1{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 65px;
+		padding: 0 20px;
+	}
+	.home h4{
+		padding-top: 40px;
+		padding-bottom: 75px;
+		padding-left: 80px;
+		padding-right: 80px;
+		font-family: 'Raleway', sans-serif;
+		font-size: 22px;
+	}
+	.testimonial .client-content .slider h4{
+		width: 70%;
+		font-family: 'Cardo', serif;
+		font-weight: 400;
+		font-size: 28px;
+		padding-bottom: 30px;
+	}
+}
+@media (max-width: 992px) {
+	.home h1{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 45px;
+		padding: 0 20px;
+	}
+	.home h4{
+		padding-top: 40px;
+		padding-bottom: 75px;
+		padding-left: 80px;
+		padding-right: 80px;
+		font-family: 'Raleway', sans-serif;
+		font-size: 20px;
+	}
+	.testimonial .client-content .slider h4{
+		width: 70%;
+		font-family: 'Cardo', serif;
+		font-weight: 400;
+		font-size: 20px;
+		padding-bottom: 30px;
+	}
+}
+@media (max-width: 768px) {
+	.home h1{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 35px;
+		padding: 0 20px;
+	}
+	.home h4{
+		padding-top: 40px;
+		padding-bottom: 75px;
+		padding-left: 80px;
+		padding-right: 80px;
+		font-family: 'Raleway', sans-serif;
+		font-size: 18px;
+	}
+	/*.testimonial .client-content .slider h4{
+		width: 70%;
+		font-family: 'Cardo', serif;
+		font-weight: 400;
+		font-size: px;
+		padding-bottom: 30px;
+	}*/
+}
+@media (max-width: 576px) {
+	.home h1{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 30px;
+		padding: 0 16px;
+	}
+	.home h4{
+		padding-top: 40px;
+		padding-bottom: 75px;
+		padding-left: 80px;
+		padding-right: 80px;
+		font-family: 'Raleway', sans-serif;
+		font-size: 14px;
+	}
+	/*.testimonial .client-content .slider h4{
+		width: 70%;
+		font-family: 'Cardo', serif;
+		font-weight: 400;
+		font-size: 36px;
+		padding-bottom: 30px;
+	}*/
+}

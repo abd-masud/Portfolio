@@ -1,0 +1,44 @@
+@media (max-width: 1200px) {
+	.feature .feature-bottom-item1 a{
+		padding-top: 52px;
+	}
+}
+@media (max-width: 992px) {
+	header .phone{
+		margin-top: 250px;
+	}
+	.feature .feature-top-item3 a{
+		padding-top: 36px;
+	}
+	.feature .feature-bottom-item1 a{
+		padding-top: 88px;
+	}
+}
+@media (max-width: 768px) {
+	header .phone{
+		margin-top: -250px;
+		height: 370px; 
+		width: auto;
+		display: block;
+		right: 0;
+	}
+	.feature .feature-top-item3 a{
+		padding-top: 0;
+	}
+	.feature .feature-bottom-item1 a{
+		padding-top: 0px;
+	}
+	.feature .feature-bottom-item2 a{
+		padding-top: 26px;
+	}
+}
+@media (max-width: 576px) {
+	.feature .feature-bottom-item2 a{
+		padding-top: 0px;
+	}
+}
+@media (max-width: 500px) {
+	.feature .feature-bottom-item2 a{
+		padding-top: 26px;
+	}
+}

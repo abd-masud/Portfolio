@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital,wght@0,400;0,700;1,400;1,700&family=Lato:wght@100;300;400;700;900&family=Yeseva+One&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0!important;
+}
+html{
+	background-color: ;
+}
+body{
+	font-family: 'Gentium Book Basic', serif;
+	font-family: 'Yeseva One', cursive;
+	font-family: 'Lato', sans-serif;
+	overflow-x: hidden;
+	position: relative;
+}
+a,a:hover{
+	text-decoration: none;
+}
+img{
+	vertical-align: center;
+}
+ul,ol{
+	list-style: none;
+}
+h1,h2,h3,h4,h5,h5,p,a,img,ul,ol,nav{
+	padding: 0;
+	margin: 0;
+}
+::selection{
+	color: white;
+	background-color: #CC9900;
+}
+::-webkit-scrollbar{
+  	width: 8px;
+}
+::-webkit-scrollbar-track{
+  	background-color: white; 
+}
+::-webkit-scrollbar-thumb{
+  	background-color: #CC9900; 
+}
+.loader{
+	background-color: white;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 100;
+	color: #CC9900;
+}
+nav{
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 21px;
+	height: 73px;
+}
+.navbar .img-logo{
+	height: 65px;
+	width: auto;
+}
+.navbar ul li a{
+	border-top: solid 2px transparent;
+}
+.navbar ul li a:hover,
+.navbar ul li .active{
+	border-top: solid 2px #CCC8BD;
+}
+header{
+	background-image: url(../image/home-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+header h1{
+	font-family: 'Yeseva One', cursive;
+	font-size: 90px;
+	color: #F3F2F0;
+	padding-top: 200px;
+	padding-bottom: 20px;
+}
+header a{
+	color: white;
+	padding: 20px 60px;
+	border: solid 1px white;
+	background-color: transparent;
+	transition: .2s;
+}
+header a:hover{
+	background-color: rgba(0,0,0,.6);
+	border: solid 1px black;
+}
+header .button{
+	padding-top: 50px;
+	padding-bottom: 130px;
+}
+.about{
+	background-image: url(../image/foodtop-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.about h2{
+	font-family: 'Yeseva One', cursive;
+	color: #CC9900;
+	padding-top: 100px;
+	padding-bottom: 10px;
+}
+.about p{
+	font-size: 16px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.about .plate{
+	padding-top: 75px;
+}
+.igredients{
+	background-image: url(../image/fine-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	overflow: hidden;
+}
+.igredients .igredient-bg{
+	background-color: rgba(0,0,0,.6);
+	margin: 100px 0;
+}
+.igredients .igredient-item{
+	padding: 80px;
+}
+.igredients .igredient-item h2{
+	font-family: 'Yeseva One', cursive;
+	color: #CC9900;
+	padding-bottom: 10px;
+}
+.igredients .igredient-item p{
+	font-size: 16px;
+}
+.igredients .igredient-img1{
+	border: solid 3px rgba(255,255,255,.1);
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 10px;
+	margin-top: 60px;
+	height: 100px;
+	width: 100px;
+}
+.igredients .igredient-img1 img{
+	transition: .3s;
+}
+.igredients .igredient-img1:hover img{
+	transform: scale(1.2);
+}
+.menu{
+	background-image: url(../image/list-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.menu .menu-item h2{
+	font-family: 'Yeseva One', cursive;
+	color: #CC9900;
+	padding-bottom: 5px;
+}
+.menu .menu-item img{
+	margin: 0 auto;
+	display: block;
+}
+.menu .menu-item h5{
+	font-family: 'Yeseva One', cursive;
+	color: #CC9900;
+	padding-bottom: 5px;
+	font-size: 21px;
+	border-bottom: solid 1px #CC9900;
+	padding-bottom: 5px;
+}
+.menu .menu-item p{
+	padding-top: 5px;
+}
+.menu .menu-item h5 span{
+	float: right;
+}
+.menu .menu-list-item{
+	margin: 30px 20px;
+	border: solid 1px transparent;
+	transition: .2s;
+	padding: 10px;
+}
+.menu .menu-list-item:hover{
+	border: solid 1px #CC9900;
+}
+.reviews{
+	background-image: url(../image/guest-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.reviews .review-item-page{
+	background-color: rgba(0,0,0,.7);
+	margin: 80px 0;
+}
+.reviews .review-item{
+	padding: 70px;
+}
+.reviews .review-item span{
+	font-size: 100px;
+	position: absolute;
+	left: 0;
+	margin-left: 50px;
+	color: #999B99;
+}
+.reviews h2{
+	font-family: 'Yeseva One', cursive;
+	padding-bottom: 10px;
+}
+.reviews p{
+	font-size: 25px;
+	padding-top: 10px;
+	color: #DDE0DF;
+}
+.reviews h6{
+	font-size: 18px;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+.reservations{
+	background-image: url(../image/food-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	overflow: hidden;
+}
+.reservations .food-item{
+	overflow: hidden;
+}
+.reservations .food-item img{
+	transition: .3s;
+}
+.reservations .food-item:hover img{
+	transform: scale(1.1);
+}
+.reservations .reservation-item h2{
+	font-family: 'Yeseva One', cursive;
+	color: #CC9900;
+	padding-bottom: 10px;
+}
+.reservations form{
+	padding: 30px 60px;
+}
+.reservations form label{
+	margin-bottom: 25px;
+}
+.reservations form h6{
+	color: #CC9900;
+	font-weight: 800;
+}
+.reservations form input{
+	font-style: italic;
+	border: solid 1px #C8C6C6;
+	transition: .2s;
+	padding: 5px 15px;
+	width: 200px;
+	color: #7C7C7C;
+}
+.reservations form input:hover,
+.reservations form input:focus{
+	border: solid 1px #CC9900;
+}
+.reservations form .submit{
+	background-color: #CC9900;
+	border: solid 1px #CC9900;
+	color: white;
+	font-style: inherit;
+	padding: 6px 50px;
+	transition: .2s
+}
+.reservations form .submit:hover{
+	color: #CC9900;
+	background-color: white;
+}
+footer{
+	background-color: #191919;
+	color: white;
+}
+footer img{
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+footer a{
+	color: white;
+	transition: .2s;
+}
+footer a:hover{
+	color: #CC9900;
+}
+

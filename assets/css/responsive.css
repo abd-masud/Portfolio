@@ -1,0 +1,89 @@
+@media (max-width: 1200px) {
+	.home{
+		background-position: 70% center;
+	}
+	.home h1{
+		padding-top: 145px;
+		font-size: 90px;
+	}
+	.home h3{
+		padding-bottom: 150px;
+	}
+	.home .social .social-box{
+		margin-left: 23px;
+		margin-right: 23px;
+	}
+	.home .social{
+		padding-bottom: 111px;
+	}
+	.about-img{
+		height: 300px;
+		width: 300px;
+		border: solid black 2px; 
+		border-radius: 50%;
+		overflow: hidden;
+		margin: auto;
+	}
+}
+@media (max-width: 992px) {
+	.about-img{
+		height: 300px;
+		width: 300px;
+	}
+	.home h1{
+		padding-top: 160px;
+		font-size: 80px;
+	}
+	.home h3{
+		padding-bottom: 165px;
+	}
+	.home .social .social-box{
+		margin-left: 22px;
+		margin-right: 22px;
+	}
+	.home .social{
+		padding-bottom: 121px;
+	}
+}
+@media (max-width: 768px) {
+	.about-img{
+		height: 200px;
+		width: 200px;
+	}
+	.home h1{
+		padding-top: 175px;
+		font-size: 70px;
+	}
+	.home h3{
+		padding-bottom: 180px;
+	}
+	.home .social .social-box{
+		margin-left: 21px;
+		margin-right: 21px;
+	}
+	.home .social{
+		padding-bottom: 131px;
+	}
+	.portfolio .item-box{
+		height: 300px;
+	}
+}
+@media (max-width: 576px) {
+	.home h1{
+		padding-top: 190px;
+		font-size: 60px;
+	}
+	.home h3{
+		padding-bottom: 195px;
+	}
+	.home .social .social-box{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.home .social{
+		padding-bottom: 141px;
+	}
+	.about .swiper-content{
+		height: 185px;
+	}
+}
